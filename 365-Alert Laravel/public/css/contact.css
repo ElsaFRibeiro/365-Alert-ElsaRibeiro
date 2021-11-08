@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Variables for colors*/
+
+:root {
+    --grey: #efefef;
+    --green: #0b9e99;
+    --blue: #16354d;
+    --dark_green: #037c87;
+    --purple: #2b3371;
+    --darkgrey: #dcdcdc;
+}
+
+/*Main*/
+
+main {
+    background-color: #efefef;
+}
+
+/*Intro Image*/
+.contact_image {
+    background-image: url(../pictures/Contact_Page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+/*Intro Title*/
+#contact_title {
+    background-color: #037c87;
+    padding: 50px;
+    font-size: 24px;
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+}
+
+/* Form */
+
+form {
+    background-color: #efefef;
+    padding: 50px;
+}
+
+label {
+    font-size: 14px;
+}
+
+#submit_button {
+    color: white;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 50px 10px 50px;
+    background-color: #0b9e99;
+    border-style: none;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#submit_button:hover {
+    background-color: var(--white);
+    color: var(--green);
+}
+#submit_button:active {
+    background-color: var(--grey);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#name,
+#email,
+#message {
+    border: 1px solid #dcdcdc;
+    font-family: Roboto;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 10px;
+    padding-right: 150px;
+}
+
+#form {
+    text-align: left;
+    font-family: Roboto;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#form textarea {
+    padding-right: 150px;
+}
+
+label {
+    color: #2b3371;
+    font-weight: 600;
+    font-family: Roboto;
+}
+
+.form_container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+
+.containerSubmit {
+    display: flex;
+    justify-content: center;
+}
+
+/* Links to other websites */
+
+.images img {
+    height: 100px;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+
+/*Hover*/
+
+#submit_btn:hover {
+    background-color: rgb(46, 100, 100);
+    color: var(--grey);
+}
+
+#submit_btn:active {
+    background-color: var(--grey);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+

@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Variables for colors*/
+
+:root {
+	--grey: #efefef;
+	--green: #0b9e99;
+	--blue: #16354d;
+	--dark_green: #037c87;
+	--purple: #2b3371;
+	--darkgrey: #dcdcdc;
+}
+
+/*Main*/
+main {
+	background-color: #efefef;
+}
+
+
+/*About description*/
+
+#about_us_description{
+    font-size: 16px;
+	font-family: Roboto;
+    color: white;
+    font-weight: 400;
+    top: 20%;
+    padding: 50px;
+    background-image: url(../pictures/About\ -\ Web\ Dev\ Main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+/*Intro Title*/
+#contact_title {
+	background-color: #037c87;
+	padding: 50px;
+	font-size: 24px;
+	font-family: Roboto;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: white;
+     
+}
+
+
+/*About _ Team*/
+.about img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    margin-bottom: 25px;
+    margin-top: 100px;
+
+}
+
+#name{
+    font-family: Roboto;
+    font-weight: 800;
+    font-size: 22px;
+    color: #575757;
+    padding-bottom: 10px;
+
+}
+
+#title {
+    font-family: Roboto;
+    font-size: 17px;
+    color: #575757;
+    padding-bottom: 30px;
+
+}
+
+#description {
+    font-family: Roboto;
+    font-size: 15px;
+    color: #8b8b8b;
+    width: 70%; 
+    margin: 0 auto;
+    
+}
+
+#linkedin{
+    width: 120px;
+    height: 120px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+/*Responsive Mode small tablet*/
+
+@media 
+  (min-device-width: 500px) 
+  and (max-device-width: 800px) {
+    #about_us_description{
+        font-size: 22px;
+        font-family: Roboto;
+        color: white;
+        font-weight: 400;
+        padding: 100px;
+    }
+}
+
+/*Responsive Mode Tablet and Desktop*/
+
+@media 
+  (min-device-width: 800px) {
+    #about_us_description{
+        font-size: 22px;
+        font-family: Roboto;
+        color: white;
+        font-weight: 400;
+        padding: 100px;
+    }
+    
+    .about_team {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center; 
+    }
+
+    .about {
+        width: 300px;
+        padding: 0px;
+    }
+
+    .about img{
+        width: 150px;
+        height: 150px;
+    }
+
+    
+}

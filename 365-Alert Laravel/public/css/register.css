@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Variables for colors*/
+
+:root {
+    --grey: #efefef;
+    --green: #0b9e99;
+    --blue: #16354d;
+    --dark_green: #037c87;
+    --purple: #2b3371;
+    --darkgrey: #dcdcdc;
+    --red: #d90000;
+    --orange: #ff6501;
+    --darkgrey: #8f8f8f;
+    --yellow: #ffcc01;
+    --alertgreen: #12600a;
+    --alertbrown: #a37114;
+}
+
+main {
+    height: 1500px;
+}
+
+.icon_365 {
+    width: 300px;
+    margin: -57px;
+}
+
+input {
+    margin-bottom: 17px;
+    width: 291px;
+    height: 43px;
+    border-radius: 15px;
+    color: #037c87;
+    border-style: none;
+    padding-left: 45px;
+}
+h3 {
+    color: white;
+    font-size: 20px;
+}
+
+::placeholder {
+    color: #037c87;
+    padding-left: 45px;
+}
+
+#checkbox {
+    display: flex;
+}
+
+#submit {
+    color: white;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 50px 10px 50px;
+    background-color: #0b9e99;
+    border-style: none;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#agree {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.input-first {
+    background-image: url("../pictures/First_LastName_BGreen.svg");
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 45px;
+}
+
+.input-last {
+    background-image: url("../pictures/First_LastName_BGreen.svg");
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 45px;
+}
+
+.input-email {
+    background-image: url("../pictures/Email.svg");
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 45px;
+}
+
+.input-phone {
+    background-image: url("../css/logos/phone.svg");
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 45px;
+}
+
+.content {
+    height: 1600px;
+}
+
+.container_legal {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container_legal p {
+    color: var(--grey);
+}
+
+#log p {
+    color: var(--grey);
+    margin-top: 10px;
+}
+
+a {
+    color: var(--grey);
+}
+
+form {
+    background-color: var(--dark_green);
+}
+
+.register_errors {
+    color: white;
+}
+#submit:active {
+    background-color: var(--grey);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+footer {
+}

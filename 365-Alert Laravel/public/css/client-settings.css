@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Variables for colors*/
+
+:root {
+    --grey: #efefef;
+    --green: #0b9e99;
+    --blue: #16354d;
+    --dark_green: #037c87;
+    --purple: #2b3371;
+    --darkgrey: #686565c4;
+}
+
+section,
+body,
+main {
+    background-color: var(--grey);
+}
+
+
+/* image*/
+
+.intro_container {
+    background-color: var(--dark_green);
+    height: 300px;
+}
+
+#image_user {
+    width: 200px;
+}
+
+#logout-container {
+    background-color: var(--dark_green);
+    padding-bottom: 30px;
+}
+
+#logout-container button {
+    background-color: var(--green);
+    justify-content: space-around;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px var(--white) solid;
+    border-color: var(--white);
+    background-color: var(--green);
+    color: var(--white);
+    margin-left: 20px;
+}
+
+#client {
+    color: white;
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+
+/* user details*/
+
+.user-username,
+.user-email,
+.user-phone {
+    margin-bottom: 50px;
+}
+
+.user-username h2,
+.user-email h2,
+.user-phone h2 {
+    font-size: 18px;
+}
+
+.user-username p,
+.user-email p,
+.user-phone p {
+    font-size: 16px;
+    color: var(--darkgrey);
+}
+
+
+/* end user details*/
+
+
+/* change buttons*/
+
+.red-buttons button {
+    color: white;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 50px 15px 50px;
+    background-color: #0b9e99;
+    border-style: none;
+    border-radius: 20px;
+    text-align: center;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.row label {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--blue);
+}
+
+
+/* end change buttons*/
+
+
+/*user-details*/
+
+#user-details {
+    background-color: var(--white);
+    text-transform: capitalize;
+    text-align: left;
+    font-weight: 600;
+    color: var(--blue);
+    padding: 50px;
+}
+
+
+/* end user-details */
+
+
+/*settings-bar*/
+
+#settings-bar {
+    background-color: var(--blue);
+    text-transform: capitalize;
+    font-weight: 600;
+    color: var(--white);
+    padding: 50px;
+}
+
+
+/* end settings-bar*/
+
+
+/* alert section*/
+
+.alert {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.alert button {
+    margin-top: 10px;
+}
+
+.alert h4 {
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.alert p {
+    font-size: 16px;
+    color: var(--darkgrey);
+    padding-bottom: 15px;
+}
+
+.alert button {
+    color: white;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #0b9e99;
+    border-style: none;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px 50px 15px 50px;
+    width: 250px;
+}
+
+
+/* end alert section*/
+
+
+/* unsub section  */
+
+.container_checkbox {
+    padding: 50px;
+}
+
+#unsub_container h3 {
+    background-color: var(--blue);
+    text-transform: capitalize;
+    font-weight: 600;
+    color: var(--white);
+    padding: 50px;
+    font-size: 24px;
+}
+
+#unsub_container label {
+    font-size: 16px;
+    font-family: Roboto;
+    color: var(--blue);
+}
+
+
+/* end unsub section   */
+
+.buttons_container {
+    color: white;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+    background-color: #0b9e99;
+    border-style: none;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.buttons_container:hover {
+    background-color: var(--white);
+    color: var(--green);
+}
+.buttons_container:active {
+    background-color: var(--grey);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#unsub_container button {
+    color: white;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 50px 15px 50px;
+    background-color: #ad0606;
+    border-style: none;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#unsub_container p {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+/*Desktop view*/
+
+@media screen and (min-width: 860px) {
+    #user-details,
+    #change-password {
+        margin: 0 auto;
+        width: 900px;
+        align-items: center;
+    }
+    #logout-container {
+        display: none;
+    }
+    .red-buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 800px;
+        align-items: center;
+    }
+    .alert_container {
+        margin: 0 auto;
+        width: 900px;
+        align-items: center;
+    }
+}

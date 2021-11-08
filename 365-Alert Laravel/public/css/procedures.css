@@ -1,0 +1,192 @@
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: "Roboto", sans-serif;
+        }
+        /*Variables for colors*/
+        
+         :root {
+            --white: #efefef;
+            --green: #0b9e99;
+            --blue: #16354d;
+            --dark_green: #037c87;
+            --purple: #2b3371;
+            --red: #D90000;
+            --orange: #FF6501;
+        }
+        
+        main {
+            background-color: var(--background-white);
+            text-align: center;
+            margin: 0 auto;
+        }
+        
+        #emergency img {
+            width: 100%;
+        }
+        /*Danger levels*/
+        
+        #danger h2 {
+            background-color: var(--dark_green);
+            text-transform: uppercase;
+            font-weight: 600;
+            color: var(--white);
+            padding: 50px;
+        }
+        
+        .danger p {
+            text-align: left;
+            font-weight: 600;
+            padding-bottom: 50px;
+        }
+        
+        #danger p {
+            padding-left: 40px;
+        }
+        
+        .icon-alert-red {
+            background: url('../pictures/Alert_Warning_Red.svg') no-repeat -50px -10px/200px white;
+            padding-left: 100px;
+            min-height: 100px;
+            text-align: left;
+        }
+        
+        .icon-alert-orange {
+            background: url('../pictures/Alert_Warning_Orange.svg') no-repeat -50px -10px/200px white;
+            padding-left: 100px;
+            min-height: 100px;
+            text-align: left;
+        }
+        
+        .icon-alert-yellow {
+            background: url('../pictures/Alert_Warning_Yellow.svg') no-repeat -50px -10px/200px white;
+            padding-left: 100px;
+            min-height: 100px;
+            text-align: left;
+        }
+        
+        .icon-alert-green {
+            background: url('../pictures/Alert_Warning_Green.svg') no-repeat -50px -10px/200px white;
+            padding-left: 100px;
+            min-height: 100px;
+            text-align: left;
+        }
+        /*Safety procedures */
+        
+        #safety h2 {
+            background-color: var(--dark_green);
+            text-transform: uppercase;
+            font-weight: 600;
+            color: var(--white);
+            padding: 50px;
+        }
+        
+        #safety h2 span {
+            text-transform: none;
+            font-weight: 400;
+            font-size: 0.8em;
+            color: var(--white);
+        }
+        /* Orange alert */
+        
+        #safety h3 {
+            text-transform: uppercase;
+            background-color: var(--orange);
+            padding: 30px;
+            color: var(--white);
+            font-weight: 400;
+            font-size: 1.3em;
+        }
+        
+        .icon-danger-level1 {
+            background: url('../pictures/Alert_Warning_Orange.svg') no-repeat 20px 35px/100px white;
+            min-height: 100px;
+            text-align: left;
+        }
+        
+        .icon-danger-level1 h3 {
+            padding: 50px;
+            padding-left: 90px;
+            text-transform: uppercase;
+            text-decoration: underline;
+            font-weight: 800;
+            font-size: 17px;
+        }
+        
+        .icon-danger-level1 h4 {
+            padding-left: 40px;
+            font-size: 1.2em;
+            font-weight: 800;
+        }
+        
+        .icon-danger-level1 p {
+            padding-left: 40px;
+            font-size: 1.2em;
+            font-weight: 500;
+        }
+        
+        #local-flooding h3 {
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            background-color: var(--red);
+            padding: 30px;
+            color: var(--white);
+            font-weight: 400;
+            font-size: 1.3em;
+        }
+        /*Red alerts */
+        
+        .icon-danger-level2 {
+            background: url('../pictures/Alert_Warning_Red.svg') no-repeat 20px 35px/100px white;
+            min-height: 100px;
+            text-align: left;
+            font-size: 17px;
+        }
+        
+        #help h3 {
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            background-color: var(--dark_green);
+            padding: 30px;
+            color: var(--white);
+            font-weight: 400;
+            font-size: 1.3em;
+        }
+        /*Help section*/
+        
+        .help {
+            background-image: url('../pictures/CGDIS_3 copie.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            text-align: left;
+            font-size: 17px;
+            height: 225px;
+            position: relative;
+        }
+        
+        .help img {
+            width: 140px;
+            padding-top: 65px;
+            padding-left: 9px;
+        }
+        
+        .last .help p {
+            position: absolute;
+            padding-top: 170px;
+            padding-left: 58px;
+            color: var(--white);
+        }
+        
+        @media screen and (min-width: 1200px) {
+            .emergency {
+                background-color: var(--white);
+            }
+            #emergency img {
+                width: auto;
+                height: 550px;
+            }
+        }

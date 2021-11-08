@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Variables for colors*/
+
+:root {
+    --grey: #efefef;
+    --green: #0b9e99;
+    --blue: #16354d;
+    --dark_green: #037c87;
+    --purple: #2b3371;
+    --darkgrey: #dcdcdc;
+    --red: #d90000;
+    --orange: #ff6501;
+    --darkgrey: #8f8f8f;
+    --yellow: #ffcc01;
+    --alertgreen: #12600a;
+    --alertbrown: #a37114;
+}
+input {
+    margin-bottom: 17px;
+    padding: 10px 50px;
+    border-radius: 15px;
+    color: #037c87;
+    border-style: none;
+}
+h3 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+#submit2 {
+    color: white;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 50px 10px 50px;
+    background-color: #0b9e99;
+    border-style: none;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+p {
+    color: black;
+}
+
+.content {
+    height: 1000px;
+}
+
+.icon_365 {
+    width: 300px;
+}
+
+::placeholder {
+    color: #037c87;
+    padding-left: 40px;
+    font-size: 16px;
+}
+
+.input-email {
+    background-image: url("../css/logos/email.svg");
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 45px;
+}
+.input-password {
+    background-image: url("../css/logos/password.svg");
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 45px;
+}
+
+a {
+    color: var(--grey);
+}
+
+.flex_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input:hover {
+    background-color: var(--grey);
+    color: var(--dark_green);
+}
+
+#submit2:hover {
+    background-color: var(--white);
+    color: var(--green);
+}
+#submit2:active {
+    background-color: var(--grey);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.login_errors {
+    color: white;
+}
+
+main {
+    border-bottom: 3px solid white;
+}

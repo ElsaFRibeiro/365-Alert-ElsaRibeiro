@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Variables for colors*/
+
+:root {
+    --white: #EFEFEF;
+    --green: #0B9E99;
+    --blue: #16354D;
+    --dark_green: #037C87;
+    --purple: #2B3371;
+}
+
+
+main{
+    font-family: 'Roboto', sans-serif;
+    color: var(--blue);
+    justify-content: flex-start;
+    background-color: #EFEFEF;
+    padding: 20px;
+}
+
+#terms_title {
+    color: var(--blue);
+    padding-top: 20px;
+    font-size: 3rem;
+}
+
+#we_are_title {
+    font-size: 2rem;
+    color: var(--blue);
+}
+
+p {
+    font-size: 1rem;
+}
+
+.form-group {
+    padding: 30px;
+    text-align: left;
+}
